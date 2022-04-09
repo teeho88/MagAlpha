@@ -1,0 +1,10 @@
+../Core/Src/main.c:61:6:MagAlpha_SPI_Write	16	static
+../Core/Src/main.c:65:10:MagAlpha_SPI_Read	16	static
+../Core/Src/main.c:71:6:MagAlpha_SPI_Select	0	static
+../Core/Src/main.c:75:6:MagAlpha_SPI_Deselect	0	static
+../Core/Src/main.c:79:6:MagAlpha_DelayMs	0	static
+../Core/Src/main.c:137:6:SystemClock_Config	72	static,ignoring_inline_asm
+../Core/Src/main.c:92:5:main	40	static,ignoring_inline_asm
+../Core/Src/main.c:282:6:Delay_us	0	static
+../Core/Src/main.c:83:6:MagAlpha_DelayUs	0	static
+../Core/Src/main.c:293:6:Error_Handler	0	static,ignoring_inline_asm

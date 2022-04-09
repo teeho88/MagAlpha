@@ -1,0 +1,11 @@
+../Core/Src/MagAlpha.c:21:13:MagAlpha_Init	16	static
+../Core/Src/MagAlpha.c:28:13:MagAlpha_SPI_Write	16	static
+../Core/Src/MagAlpha.c:35:17:MagAlpha_SPI_Read	4	static
+../Core/Src/MagAlpha.c:42:13:MagAlpha_SPI_Select	4	static
+../Core/Src/MagAlpha.c:48:13:MagAlpha_SPI_Deselect	4	static
+../Core/Src/MagAlpha.c:54:13:MagAlpha_DelayMs	16	static
+../Core/Src/MagAlpha.c:60:13:MagAlpha_DelayUs	16	static
+../Core/Src/MagAlpha.c:66:7:MagAlpha_ReadAngle	16	static
+../Core/Src/MagAlpha.c:74:10:MagAlpha_ReadRaw	16	static
+../Core/Src/MagAlpha.c:82:9:MagAlpha_ReadRegister	24	static
+../Core/Src/MagAlpha.c:95:9:MagAlpha_WriteRegister	24	static
