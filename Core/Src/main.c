@@ -58,6 +58,7 @@ static void MX_TIM1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+// Implement some __weak functions that need for user
 void MagAlpha_SPI_Write(uint16_t data){
 	HAL_SPI_Transmit(&hspi1, (uint8_t*)&data, 1, 100);
 }
@@ -126,6 +127,8 @@ int main(void)
     /* USER CODE END WHILE */
 	float a = MagAlpha_ReadAngle();
 	HAL_Delay(5);
+	//Next processing
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

@@ -823,7 +823,7 @@ uint16_t MagAlpha_ReadRaw(){
  80009fa:	bd80      	pop	{r7, pc}
 
 080009fc <MagAlpha_SPI_Read>:
-/* USER CODE BEGIN 0 */
+// Implement some __weak functions that need for user
 void MagAlpha_SPI_Write(uint16_t data){
 	HAL_SPI_Transmit(&hspi1, (uint8_t*)&data, 1, 100);
 }

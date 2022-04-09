@@ -1,8 +1,8 @@
 /*****
  * Author: TEEHO Nguyen
 Description:
-- This library supplies some basic function to interface with MagAlpha through SPI
-- To use this library you need to implement some __weak function:
+- This library supplies some basic functions to interface with MagAlpha through SPI
+- To use this library you need to implement some __weak functions:
 + void MagAlpha_Init(int SPI_MODE, int baudrate);
 + void MagAlpha_SPI_Write(uint16_t data);
 + uint16_t MagAlpha_SPI_Read();
